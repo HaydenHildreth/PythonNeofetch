@@ -21,6 +21,7 @@ def foo():
     # (format = x days, HH:MM:SS)
     os = platform.system()
     kernel = platform.platform()
+    percent = str(battery.percent)
 
     # PRINT STATEMENTS -- ALL STATEMENTS FROM original PROGRAM
     print('OS:', os)
@@ -42,7 +43,7 @@ def foo():
 
     # INFO HIDDEN BY DEFAULT -- ALL VALUES FROM original NEOFETCH
     # DISK
-    # BATTERY
+    # BATTERY print('Battery: ', percent)
     # FONT
     # SONG
     # PLAYER -- PROBABLY WON'T END UP DOING THIS ONE
