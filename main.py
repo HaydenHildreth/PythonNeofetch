@@ -22,14 +22,34 @@ def foo():
     os = platform.system()
     kernel = platform.platform()
 
-    # PRINT STATEMENTS
+    # PRINT STATEMENTS -- ALL STATEMENTS FROM original PROGRAM
     print('OS:', os)
+    # HOST
     print('Kernel:', kernel)
     print(f"Uptime: {days} days, {hour:02}:{mins:02}:{sec:02}")  # Windows only?
+    # PACKAGES
+    # SHELL
+    # RES
+    # DE
+    # WM
+    # WM-THEME
+    # ICONS
+    # TERMINAL
+    # TERMINAL FONT
     print('CPU:', platform.processor())
     print('GPU:', platform.processor())
     print('Memory:', psutil.virtual_memory().total)
 
+    # INFO HIDDEN BY DEFAULT -- ALL VALUES FROM original NEOFETCH
+    # DISK
+    # BATTERY
+    # FONT
+    # SONG
+    # PLAYER -- PROBABLY WON'T END UP DOING THIS ONE
+    # LOCAL IP
+    # PUBLIC IP
+    # 'USERS' -- PROBABLY WON'T DO THIS ONE EITHER
+    # LOCALE -- USELESS I BELIEVE
 
 if __name__ == '__main__':
     foo()
